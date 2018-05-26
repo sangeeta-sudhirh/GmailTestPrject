@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="2" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke suite" duration-ms="24291" started-at="2018-05-23T12:10:02Z" finished-at="2018-05-23T12:10:27Z">
+  <suite name="Smoke suite" duration-ms="40530" started-at="2018-05-25T13:21:36Z" finished-at="2018-05-25T13:22:17Z">
     <groups>
     </groups>
-    <test name="Smoke test" duration-ms="24291" started-at="2018-05-23T12:10:02Z" finished-at="2018-05-23T12:10:27Z">
+    <test name="Smoke test" duration-ms="40530" started-at="2018-05-25T13:21:36Z" finished-at="2018-05-25T13:22:17Z">
       <class name="FirstMavenProject.FirstMavenProject.HomePageScenario">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:FirstMavenProject.FirstMavenProject.HomePageScenario@13fee20c]" name="setUp" is-config="true" duration-ms="7625" started-at="2018-05-23T12:10:02Z" finished-at="2018-05-23T12:10:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:FirstMavenProject.FirstMavenProject.HomePageScenario@13fee20c]" name="setUp" is-config="true" duration-ms="16841" started-at="2018-05-25T13:21:36Z" finished-at="2018-05-25T13:21:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1()[pri:0, instance:FirstMavenProject.FirstMavenProject.HomePageScenario@13fee20c]" name="test1" duration-ms="12549" started-at="2018-05-23T12:10:10Z" description="compose email - send" finished-at="2018-05-23T12:10:23Z">
+        <test-method status="FAIL" signature="test1()[pri:0, instance:FirstMavenProject.FirstMavenProject.HomePageScenario@13fee20c]" name="test1" duration-ms="19621" started-at="2018-05-25T13:21:53Z" description="compose email - send" finished-at="2018-05-25T13:22:13Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[chrome not reachable
@@ -19,10 +19,10 @@
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'USER-PC', ip: '192.168.2.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+System info: host: 'USER-PC', ip: '192.168.2.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
-Session ID: e185db3ecc85fc38603dae1d082fbfaf]]>
+Session ID: 7560c838aa49e52ee6d2ac80b044f2b6]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
@@ -30,10 +30,10 @@ Session ID: e185db3ecc85fc38603dae1d082fbfaf]]>
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'USER-PC', ip: '192.168.2.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+System info: host: 'USER-PC', ip: '192.168.2.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
-Session ID: e185db3ecc85fc38603dae1d082fbfaf
+Session ID: 7560c838aa49e52ee6d2ac80b044f2b6
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -89,7 +89,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="FAIL" signature="teardown()[pri:0, instance:FirstMavenProject.FirstMavenProject.HomePageScenario@13fee20c]" name="teardown" is-config="true" duration-ms="4033" started-at="2018-05-23T12:10:23Z" finished-at="2018-05-23T12:10:27Z">
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:FirstMavenProject.FirstMavenProject.HomePageScenario@13fee20c]" name="teardown" is-config="true" duration-ms="4011" started-at="2018-05-25T13:22:13Z" finished-at="2018-05-25T13:22:17Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[chrome not reachable
@@ -97,10 +97,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'USER-PC', ip: '192.168.2.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+System info: host: 'USER-PC', ip: '192.168.2.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
-Session ID: e185db3ecc85fc38603dae1d082fbfaf]]>
+Session ID: 7560c838aa49e52ee6d2ac80b044f2b6]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
@@ -108,10 +108,10 @@ Session ID: e185db3ecc85fc38603dae1d082fbfaf]]>
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'USER-PC', ip: '192.168.2.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+System info: host: 'USER-PC', ip: '192.168.2.6', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
-Session ID: e185db3ecc85fc38603dae1d082fbfaf
+Session ID: 7560c838aa49e52ee6d2ac80b044f2b6
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)

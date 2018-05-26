@@ -33,6 +33,13 @@ public class LoginTest
 		Assert.assertTrue(err.contains("Wrong password"));
 	}
 	
+	@Test(description="duplicate invalid login")
+	public void test3()
+	{
+		LoginPage loginpage = new LoginPage(driver);
+		String err=loginpage.invalidLogin(Constantss.eamil, Constantss.pwd+1);
+		Assert.assertTrue(err.contains("Wrong password"));
+	}
 	@Test(description="valid login")
 	public void test2()
 	{
