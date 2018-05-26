@@ -1,7 +1,9 @@
+
 package FirstMavenProject.FirstMavenProject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BaseTest 
@@ -14,7 +16,7 @@ public class BaseTest
 		{
 		case "chrome":
 			System.setProperty("webdriver.chrome.driver", "drivers//chromedriver.exe");
-			driver= new ChromeDriver();
+			driver = new ChromeDriver();
 			break;
 		case "firefox":
 			System.setProperty("webdriver.gecko.driver", "drivers//geckodriver.exe");
