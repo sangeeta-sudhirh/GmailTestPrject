@@ -2,12 +2,12 @@
 <testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="158" started-at="2018-05-26T05:36:05Z" finished-at="2018-05-26T05:36:05Z">
+  <suite name="Default suite" duration-ms="140" started-at="2018-05-26T05:47:41Z" finished-at="2018-05-26T05:47:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="158" started-at="2018-05-26T05:36:05Z" finished-at="2018-05-26T05:36:05Z">
+    <test name="Default test" duration-ms="140" started-at="2018-05-26T05:47:41Z" finished-at="2018-05-26T05:47:41Z">
       <class name="FirstMavenProject.FirstMavenProject.LoginTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="setUp" is-config="true" duration-ms="63" started-at="2018-05-26T05:36:05Z" finished-at="2018-05-26T05:36:05Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="setUp" is-config="true" duration-ms="83" started-at="2018-05-26T05:47:41Z" finished-at="2018-05-26T05:47:41Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
@@ -20,8 +20,8 @@ at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService
 at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:139)
 at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:335)
 at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:89)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
-at FirstMavenProject.FirstMavenProject.BaseTest.selectBrowser(BaseTest.java:22)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at FirstMavenProject.FirstMavenProject.BaseTest.selectBrowser(BaseTest.java:27)
 at FirstMavenProject.FirstMavenProject.LoginTest.setUp(LoginTest.java:17)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -57,7 +57,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="test1()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="test1" duration-ms="0" started-at="2018-05-26T05:36:05Z" description="invalid login" finished-at="2018-05-26T05:36:05Z">
+        <test-method status="SKIP" signature="test1()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="test1" duration-ms="0" started-at="2018-05-26T05:47:41Z" description="invalid login" finished-at="2018-05-26T05:47:41Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
@@ -70,8 +70,8 @@ at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService
 at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:139)
 at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:335)
 at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:89)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
-at FirstMavenProject.FirstMavenProject.BaseTest.selectBrowser(BaseTest.java:22)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at FirstMavenProject.FirstMavenProject.BaseTest.selectBrowser(BaseTest.java:27)
 at FirstMavenProject.FirstMavenProject.LoginTest.setUp(LoginTest.java:17)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -107,15 +107,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="teardown" is-config="true" duration-ms="0" started-at="2018-05-26T05:36:05Z" finished-at="2018-05-26T05:36:05Z">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="teardown" is-config="true" duration-ms="0" started-at="2018-05-26T05:47:41Z" finished-at="2018-05-26T05:47:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-26T05:36:05Z" finished-at="2018-05-26T05:36:05Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-26T05:47:41Z" finished-at="2018-05-26T05:47:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="test2()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="test2" duration-ms="0" started-at="2018-05-26T05:36:05Z" description="valid login" finished-at="2018-05-26T05:36:05Z">
+        <test-method status="SKIP" signature="test2()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="test2" duration-ms="0" started-at="2018-05-26T05:47:41Z" description="valid login" finished-at="2018-05-26T05:47:41Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
@@ -128,8 +128,8 @@ at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService
 at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:139)
 at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:335)
 at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:89)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
-at FirstMavenProject.FirstMavenProject.BaseTest.selectBrowser(BaseTest.java:22)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at FirstMavenProject.FirstMavenProject.BaseTest.selectBrowser(BaseTest.java:27)
 at FirstMavenProject.FirstMavenProject.LoginTest.setUp(LoginTest.java:17)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -165,15 +165,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="teardown" is-config="true" duration-ms="0" started-at="2018-05-26T05:36:05Z" finished-at="2018-05-26T05:36:05Z">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="teardown" is-config="true" duration-ms="0" started-at="2018-05-26T05:47:41Z" finished-at="2018-05-26T05:47:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-26T05:36:05Z" finished-at="2018-05-26T05:36:05Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="setUp" is-config="true" duration-ms="0" started-at="2018-05-26T05:47:41Z" finished-at="2018-05-26T05:47:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="test3()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="test3" duration-ms="0" started-at="2018-05-26T05:36:05Z" description="duplicate invalid login" finished-at="2018-05-26T05:36:05Z">
+        <test-method status="SKIP" signature="test3()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="test3" duration-ms="0" started-at="2018-05-26T05:47:41Z" description="duplicate invalid login" finished-at="2018-05-26T05:47:41Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
@@ -186,8 +186,8 @@ at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService
 at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:139)
 at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:335)
 at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:89)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
-at FirstMavenProject.FirstMavenProject.BaseTest.selectBrowser(BaseTest.java:22)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at FirstMavenProject.FirstMavenProject.BaseTest.selectBrowser(BaseTest.java:27)
 at FirstMavenProject.FirstMavenProject.LoginTest.setUp(LoginTest.java:17)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -223,7 +223,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="teardown" is-config="true" duration-ms="0" started-at="2018-05-26T05:36:05Z" finished-at="2018-05-26T05:36:05Z">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:FirstMavenProject.FirstMavenProject.LoginTest@4c70fda8]" name="teardown" is-config="true" duration-ms="0" started-at="2018-05-26T05:47:41Z" finished-at="2018-05-26T05:47:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
